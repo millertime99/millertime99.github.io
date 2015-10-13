@@ -1,2 +1,22 @@
-img { width: 50% }
-body { background: teal }
+/* Global */
+body { background: rgba(0, 125, 128, 0.46); 
+}
+img { width: 50%; 
+}
+
+/* Layout */
+
+
+/* Typography */
+
+
+/* Navigation */
+a { background: teal;
+    border-radius: 30px; 
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+li {display: inline-block; 
+    margin-left: 10px; 
+}
