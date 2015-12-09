@@ -99,13 +99,29 @@ ul.gallery li p {
 
 /******************
 FOOTER *******************/
+
+
 p#copyright {
     text-align: center;
 
 }
 
+ul {
+    list-style: none
+}
+
+ul#social {
+    width: 40%;
+    padding-left: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#social {
+    display: flex;   
+}
 #social-media {
- width: 100px;   
+ width: 70px;  
 }
 
 
