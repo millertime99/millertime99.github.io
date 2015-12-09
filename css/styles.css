@@ -1,22 +1,115 @@
-/* Global */
-body { background: rgba(0, 125, 128, 0.46); 
+@import url(https://fonts.googleapis.com/css?family=Poiret+One|Playball|Crushed);
+
+* {
+  box-sizing: border-box;
 }
-img { width: 50%; 
+
+/******************
+HEADER *******************/
+
+div#supporting-header {
+    background: #69BE28;
+    padding: 10px;
+}
+#supporting-header h1, #supporting-header h2 {
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+#supporting-header h1 {
+    font-family: 'Playball', cursive;
+    font-size: 4.5rem;
+}
+#supporting-header h2 {
+    font-family: 'Poiret One', cursive;
+    font-size: 1.5rem;
+    color: white;
 }
 
-/* Layout */
 
+/******************
+NAVAGATION *******************/
 
-/* Typography */
-
-
-/* Navigation */
-a { background: teal;
-    border-radius: 30px; 
-    display: block;
-    width: 100px;
-    height: 100px;
+#nav {
+    
+    display: -webkit-flex;
+	list-style-type: none;
+    -webkit-flex-direction: row;
+    -webkit-justify-content: center;
+    -webkit-flex-wrap: wrap;
+    padding-left: 0;
 }
-li {display: inline-block; 
-    margin-left: 10px; 
+#nav li {
+    -webkit-flex-grow: 1;
+	margin: 10px;
+	border-radius: 10px;
+	background: #002244;
+    font-family: 'Crushed', cursive;
+    text-transform: uppercase;
+    letter-spacing: .07em;
+	color: #FFF;
+    text-align: center;
+}
+#nav a {
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #fff;
+	text-decoration: none;
+    transition: color 1s, background 1s, 
+}
+#nav a:hover, #nav a:focus {
+    background: #69BE28;
+    color: #002244;
+    border-radius: 10px; 
+}
+
+
+/******************
+ABOUT ME *******************/
+
+/******************
+RESUME *******************/
+
+
+/******************
+GALLERY *******************/
+ul.gallery {
+	list-style: none;
+	font-size: ;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+ul.gallery li {
+	display: inline-block;
+    background: #
+}
+ul.gallery li img {
+    display: inline-block;
+	width: 20%;
+    height: auto;
+}
+ul.gallery li p {
+	font-size: .9em;
+	line-height: 1.5em;
+	color: #999;
+}
+
+
+/******************
+FOOTER *******************/
+p#copyright {
+    text-align: center;
+
+}
+
+
+
+
+/******************
+MEDIA SCREEN*******************/
+
+@media screen and (max-width: 488px;) {
+
 }
