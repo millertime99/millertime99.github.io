@@ -26,12 +26,45 @@ div#supporting-header {
     color: white;
 }
 
+/******************
+INDEX-NAVAGATION *******************/
 
+#index-nav {
+    display: -webkit-flex;
+	list-style-type: none;
+    -webkit-flex-direction: row;
+    -webkit-justify-content: center;
+    -webkit-flex-wrap: wrap;
+    padding-left: 0;
+}
+#index-nav li {
+    -webkit-flex-grow: 1;
+	margin: 10px;
+	border-radius: 10px;
+	background: #002244;
+    font-family: 'Crushed', cursive;
+    text-transform: uppercase;
+    letter-spacing: .07em;
+	color: #FFF;
+    text-align: center;
+}
+#index-nav a {
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #fff;
+	text-decoration: none;
+    transition: color 1s, background 1s, 
+}
+#index-nav a:hover, #nav a:focus {
+    background: #69BE28;
+    color: #002244;
+    border-radius: 10px; 
+}
 /******************
 NAVAGATION *******************/
 
 #nav {
-    
     display: -webkit-flex;
 	list-style-type: none;
     -webkit-flex-direction: row;
