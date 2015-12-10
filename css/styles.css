@@ -103,15 +103,17 @@ FOOTER *******************/
 
 p#copyright {
     text-align: center;
-
 }
 
 ul {
-    list-style: none
+    list-style: none;
 }
 
 ul#social {
     padding-left: 0px;
+    width: 11em;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 img#social-media {
@@ -120,6 +122,7 @@ img#social-media {
 
 li {
     display: inline;
+    align: center;
 }
 
 /******************
