@@ -193,6 +193,11 @@ CONTACT *******************/
 .bold {
     font-weight: 800;
 }
+#content {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 /******************
 FOOTER *******************/
