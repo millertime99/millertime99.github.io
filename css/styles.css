@@ -11,16 +11,15 @@ HEADER *******************/
 
 div#supporting-header {
     background: #69BE28;
-    margin: 0;
 }
 #supporting-header h1, #supporting-header h2 {
     color: white;
-    margin: 0;
     text-align: center;
 }
 #supporting-header h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 4.5rem;
+    margin-top: -8px;
 }
 #supporting-header h2 {
     font-family: 'Open Sans', sans-serif;
