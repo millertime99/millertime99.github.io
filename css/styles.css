@@ -17,7 +17,7 @@ div#index-header {
 #index-header h1, #index-header h2 {
     color: white;
     text-align: center;
-    margin-top: 10px;
+    margin-;
 
 }
 #index-header h1 {
@@ -158,6 +158,8 @@ ABOUT ME *******************/
 .big-letters {
     font-size: 2em;
 }
+
+
 /******************
 RESUME *******************/
 
@@ -186,6 +188,11 @@ ul.gallery li p {
 	color: #999;
 }
 
+/******************
+CONTACT *******************/
+.bold {
+    font-weight: 800;
+}
 
 /******************
 FOOTER *******************/
@@ -201,22 +208,18 @@ p#copyright {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
-
 ul {
     list-style: none;
 }
-
 ul#social {
     padding-left: 0px;
     width: 11em;
     margin-right: auto;
     margin-left: auto;
 }
-
 img#social-media {
     width: 55px;
 }
-
 li {
     display: inline;
     align: center;
