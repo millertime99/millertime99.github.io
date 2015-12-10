@@ -21,7 +21,7 @@ div#supporting-header {
     font-size: 4.5rem;
 }
 #supporting-header h2 {
-    font-family: 'Poiret One', cursive;
+    font-family: 'Crushed';
     font-size: 1.5rem;
     color: white;
 }
@@ -75,7 +75,16 @@ html .index {
 
 /******************
 ABOUT ME *******************/
-
+#about-me {
+    color: white;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: justify;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
 /******************
 RESUME *******************/
 
