@@ -17,6 +17,8 @@ div#supporting-header {
 #supporting-header h1, #supporting-header h2 {
     color: white;
     text-align: center;
+    margin: 0;
+
 }
 #supporting-header h1 {
     font-family: 'Open Sans', sans-serif;
@@ -29,6 +31,7 @@ div#supporting-header {
     font-weight: 400;
     font-size: 1.5rem;
     color: white;
+    padding-bottom: 20px;
 }
 
 /******************
@@ -125,6 +128,9 @@ ABOUT ME *******************/
     margin-right: auto;
     margin-left: auto;
 }
+.big-letters {
+    font-size: 2em;
+}
 /******************
 RESUME *******************/
 
@@ -157,7 +163,12 @@ ul.gallery li p {
 /******************
 FOOTER *******************/
 
-
+p#index-copyright {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
 p#copyright {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
