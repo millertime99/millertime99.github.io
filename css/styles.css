@@ -7,6 +7,34 @@
 }
 
 /******************
+INDEX-HEADER *******************/
+
+div#index-header {
+    background: #69BE28;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+#index-header h1, #index-header h2 {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+
+}
+#index-header h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4.5rem;
+    margin-top: -8px;
+    margin-bottom: 0;
+}
+#index-header h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: white;
+    padding-bottom: 20px;
+}
+
+/******************
 HEADER *******************/
 
 div#supporting-header {
@@ -36,7 +64,6 @@ div#supporting-header {
 
 /******************
 NAVAGATION *******************/
-
 #index-nav {
     display: -webkit-flex;
 	list-style-type: none;
@@ -70,9 +97,9 @@ NAVAGATION *******************/
     border-radius: 10px; 
 }
 
+
 /******************
 NAVAGATION *******************/
-
 #nav {
     display: -webkit-flex;
 	list-style-type: none;
