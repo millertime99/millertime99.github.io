@@ -20,6 +20,7 @@ div#supporting-header {
     font-family: 'Open Sans', sans-serif;
     font-size: 4.5rem;
     margin-top: -8px;
+    margin-bottom: 0;
 }
 #supporting-header h2 {
     font-family: 'Open Sans', sans-serif;
