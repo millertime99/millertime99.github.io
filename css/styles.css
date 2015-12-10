@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Poiret+One|Playball|Crushed);
 
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,800);
+
 * {
   box-sizing: border-box;
 }
@@ -17,11 +19,11 @@ div#supporting-header {
     text-align: center;
 }
 #supporting-header h1 {
-    font-family: 'Playball', cursive;
+    font-family: 'Open Sans', sans-serif;
     font-size: 4.5rem;
 }
 #supporting-header h2 {
-    font-family: 'Crushed';
+    font-family: 'Open Sans', sans-serif;
     font-size: 1.5rem;
     color: white;
 }
@@ -43,7 +45,7 @@ NAVAGATION *******************/
 	margin: 10px;
 	border-radius: 10px;
 	background: #002244;
-    font-family: 'Crushed', cursive;
+    font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: .07em;
 	color: #FFF;
@@ -77,8 +79,8 @@ html .index {
 ABOUT ME *******************/
 #about-me {
     color: white;
-    font-family: 'Poiret One', cursive;
-    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
     font-size: 1.3em;
     text-align: justify;
     width: 60%;
