@@ -11,6 +11,8 @@ HEADER *******************/
 
 div#supporting-header {
     background: #69BE28;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 #supporting-header h1, #supporting-header h2 {
     color: white;
