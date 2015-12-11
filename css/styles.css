@@ -165,7 +165,9 @@ ABOUT ME *******************/
 
 /******************
 RESUME *******************/
-
+#resume {
+    width: 100%;   
+}
 
 
 
@@ -197,9 +199,10 @@ p#copyright {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    color: #002244;
 }
 img#social-media {
- width: 65px;   
+ width: 65px;
 }
 ul#social {
  list-style: none;  
