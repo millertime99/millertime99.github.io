@@ -225,8 +225,13 @@ footer {
 
 /************************************
 TABLET ***/
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    
+@media screen and (max-device-width: 700px) {
+  footer {
+ width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}  
 }
 
 /************************************
