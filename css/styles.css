@@ -168,27 +168,7 @@ RESUME *******************/
 
 /******************
 GALLERY *******************/
-ul.gallery {
-	list-style: none;
-	font-size: ;
-    width: 80%;
-    margin-right: 10%;
-    margin-left: 10%;
-}
-ul.gallery li {
-	display: inline-block;
-    background: #
-}
-ul.gallery li img {
-    display: inline-block;
-	width: 20%;
-    height: auto;
-}
-ul.gallery li p {
-	font-size: .9em;
-	line-height: 1.5em;
-	color: #999;
-}
+
 
 /******************
 CONTACT *******************/
@@ -227,6 +207,7 @@ ul#social {
 }
 img#social-media {
     width: 55px;
+    margin-top: 20%;
 }
 li {
     display: inline;
