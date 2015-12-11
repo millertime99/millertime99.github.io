@@ -168,6 +168,11 @@ RESUME *******************/
 #resume {
     width: 100%;   
 }
+#resume img {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 
 
 
