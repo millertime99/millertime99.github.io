@@ -176,10 +176,12 @@ CONTACT *******************/
     font-weight: 800;
 }
 #content {
-    width: 50%;
+    color: #002244;
+    font-family: 'Open Sans', sans-serif;
+    width: 60%;
     margin-right: auto;
     margin-left: auto;
-    color: #002244;
+    padding-left: 4%;
 }
 
 /******************
@@ -216,9 +218,3 @@ li {
     align: center;
 }
 
-/******************
-MEDIA SCREEN*******************/
-
-@media screen and (max-width: 488px;) {
-
-}
