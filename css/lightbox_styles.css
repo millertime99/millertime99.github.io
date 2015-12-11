@@ -1,7 +1,7 @@
 .lb-album{
 	width: 900px;
 	margin: 0 auto;
-	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 .lb-album li{
 	float: left;
@@ -91,10 +91,10 @@
 	transition: opacity 0.3s linear 1.3s;
 }
 .lb-overlay div h3,
-.lb-overlay div p{
-	padding: 0px 20px;
-	width: 200px;
-	height: 60px;
+.lb-overlay div p {
+    text-align: left;
+    float: left;
+    width: 260px;
 }
 .lb-overlay div h3{
 	font-size: 36px;
