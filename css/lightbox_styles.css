@@ -1,12 +1,14 @@
 .lb-album{
 	width: 70%;
-	margin: auto;
+	margin-left: 15%;
+    margin-right: 15%;
 	font-family: 'Open Sans', sans-serif;
 }
 .lb-album li{
 	float: left;
 	margin: 5px;
 	position: relative;
+    list-style: none;
 }
 .lb-album li > a,
 .lb-album li > a img{
@@ -52,10 +54,11 @@
 	-ms-transition: opacity 0.3s linear;
 	transition: opacity 0.3s linear;
 }
-.lb-album li > a:hover span{
-	opacity: 1;
-	filter: alpha(opacity=99); /* internet explorer */
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)"; /*IE8*/
+.lb-album li > a:hover span {
+    opacity: 1;
+    line-height: inherit;
+    filter: alpha(opacity=99);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=99)";
 }
 .lb-overlay{
 	width: 0px;

@@ -159,11 +159,13 @@ ABOUT ME *******************/
 }
 .big-letters {
     font-size: 2em;
+    font-weight: 400;
 }
 
 
 /******************
 RESUME *******************/
+
 
 
 
@@ -185,7 +187,24 @@ CONTACT *******************/
 
 /******************
 FOOTER *******************/
-
+p#index-copyright {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+p#copyright {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+img#social-media {
+ width: 65px;   
+}
+ul#social {
+ list-style: none;  
+    display: flex;
+}
 
 
 
