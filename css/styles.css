@@ -200,14 +200,16 @@ ul {
     list-style: none;
 }
 ul#social {
-    padding-left: 0px;
-    width: 11em;
-    margin-right: auto;
-    margin-left: auto;
+    width: 36%;
+    height: 0px;
+    padding: 0;
+    margin-top: 0;
+    background-color: red;
 }
 img#social-media {
-    width: 55px;
+    width: 70px;
     margin-top: 20%;
+    display: inline-flex;
 }
 li {
     display: inline;
