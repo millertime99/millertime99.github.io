@@ -10,9 +10,9 @@
 	position: relative;
     list-style: none;
 }
-.lb-album li > a,
-.lb-album li > a img{
-	display: block;
+.lb-album li > a, .lb-album li > a img {
+    display: block;
+    width: 150px;
 }
 .lb-album li > a{
 	width: 150px;
