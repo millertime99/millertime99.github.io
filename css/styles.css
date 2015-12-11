@@ -166,9 +166,6 @@ ABOUT ME *******************/
 RESUME *******************/
 
 
-/******************
-GALLERY *******************/
-
 
 /******************
 CONTACT *******************/
@@ -178,7 +175,9 @@ CONTACT *******************/
 #content {
     color: #002244;
     font-family: 'Open Sans', sans-serif;
+    font-size: 1.34em;
     width: 60%;
+    text-align: center;
     margin-right: auto;
     margin-left: auto;
     padding-left: 4%;
@@ -187,34 +186,20 @@ CONTACT *******************/
 /******************
 FOOTER *******************/
 
-p#index-copyright {
-    color: #ffffff;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-}
-p#copyright {
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-}
-ul {
-    list-style: none;
-}
-ul#social {
-    width: 36%;
-    height: 0px;
-    padding: 0;
-    margin: 0 32% 0 32%;
-    background-color: red;
-}
-img#social-media {
-    width: 70px;
-    margin-top: 20%;
-    display: inline-flex;
-}
-li {
-    display: inline;
-    align: center;
+
+
+
+
+/************************************
+TABLET ***/
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    
 }
 
+/************************************
+PHONE ***/
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px) {
+      
+  }
