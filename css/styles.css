@@ -219,25 +219,9 @@ footer {
     margin-left: auto;
     text-align: center;
 }
-
-
-
-
-/************************************
-TABLET ***/
-@media screen and (max-device-width: 700px) {
-  footer {
- width: 60%;
-    margin-right: auto;
+#resume img {
+    min-width: 490px;
     margin-left: auto;
-    text-align: center;
-}  
+    margin-right: auto;
 }
 
-/************************************
-PHONE ***/
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px) {
-      
-  }
