@@ -1,0 +1,308 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:200,700);
+@import url(https://fonts.googleapis.com/css?family=Gochi+Hand);
+
+
+
+/*** NAVAGATION ***/
+#menu {
+    position: fixed;
+    z-index: 70;
+    width: 90%;
+    padding: 0;
+    margin: 0 5%;
+    text-align: center;
+}
+
+#menu li {
+    display: inline-block;
+	background: rgba(255,255,255, 0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 0 2%;
+}
+
+#menu li a {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: black
+}
+
+#menu li:hover {
+    background: rgba(255,255,255, 0.8);
+}
+
+
+
+
+/**** HOME PAGE ****/
+#one {
+background: url(img/one.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+div #front-page {
+
+}
+
+h1.name,
+h2.designer {
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+
+h1.name {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 6em;
+}
+
+h2.designer {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+}
+
+
+
+
+
+
+
+
+
+/**** ABOUT ME PAGE ****/
+#two {
+background: #2B4016;
+}
+
+#ProfilePicture {
+    width: 50%;
+    margin: -5% 25% -2% 25%;
+}
+
+#hello {
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+#about-me {
+    width: 80%; 
+    margin: 0 10% 0 10%;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+/**** RESUME ****/
+
+#three {
+background: #57732D;
+}
+
+#resume {
+    width: 70%;
+    margin: 0 auto;
+    }
+#experience,
+.company,
+.job-title,
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#experience{
+    margin: 0 0 3% 0;
+    font-size: 4em;
+}
+
+.company {
+   margin: 0 0 1% 0;
+}
+
+.job-title {
+    margin: 0 0 1% 0;
+}
+
+.duties {
+   margin: 0 0 1% 0;
+}
+
+
+
+
+
+
+
+
+/**** PORTFOLIO ****/
+#four {
+background: #788C30;
+}
+
+
+
+
+
+
+
+
+/**** CONTACT ****/
+#five {
+background: #A4A66A;
+}
+
+#contact {
+    width: 30%;
+    margin: 0 auto;
+}
+
+#contact h3 {
+    text-align: left
+}
+
+
+#contact h3,
+#contact p,
+{
+font-family: 'Open Sans', sans-serif;
+}
+
+#contact a {
+    text-decoration: none;
+    color: black;
+    background: rgba(255,255,255, 0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+#contact a:hover {
+    text-decoration: none;
+    color: black;
+    background: rgba(255,255,255, 0.8);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+/*** DESKTOP ***/
+@media only screen and (min-width : 1024px) {
+#ProfilePicture {
+    width: 30%;
+    margin: -5% 35% -2% 35%;
+}
+    h1.name {
+    font-size: 11em;
+    }
+    h2.designer {
+    font-size: 2em;
+        margin: -4%;
+    }
+    
+    #menu li {
+    padding: 20px 40px;
+    margin: 0 2%;
+}
+}
+
+
+
+
+/*** LAPTOP ***/
+@media only screen and (min-width : 924px) and (max-width : 1024px) {
+    #ProfilePicture {
+        width: 40%;
+        margin: -5% 30% -2% 30%;
+}
+    
+    #menu li {
+    padding: 13px 30px;
+    }
+    
+
+}
+
+
+
+
+/*** TABLET ***/
+@media only screen and (min-width : 480px) and (max-width : 924px) {
+    #about-me {
+        font-size: 80%;
+        margin-top: -3%;
+        
+    }
+    
+    #menu {
+    width: 100%;
+    margin: 0;
+    }
+    
+    #menu li {
+    padding: 8px 10px;
+    margin: 1% 1%;
+    }
+}
+
+
+
+
+/*** PHONE ***/
+@media only screen and (max-width : 480px) {
+    #about-me {
+    font-size: 90%;
+    }
+    
+    #menu li {
+    padding: 8px 10px;
+    margin: 1% 1%;
+    font-size: .85em;
+    }
+    
+    #menu {
+    width: 100%;
+        margin: 0;
+    }
+    
+    #experience{
+    margin: 0 0 3% 0;
+    font-size: 3em;
+}
+
+.company {
+   margin: 0 0 1% 0;
+    font-size: 1.5em;
+}
+
+.job-title {
+    margin: 0 0 1% 0;
+    font-size: 1em;
+}
+
+.duties {
+   margin: 0 0 1% 0;
+    font-size: .95em;
+}
+}
+
+
+
+
+
+
+}
